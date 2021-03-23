@@ -1,0 +1,112 @@
+* {
+    /* outline: 1px dotted red; */
+    border: 0 none;
+    outline: 0; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+
+@font-face {
+    font-family: 'DemonSlayer';
+    src: url('fonts/ds.ttf');
+}
+
+body {
+    width: 100%;
+    padding: 5%;
+    font-size: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+div {
+    margin-top: 20px;
+}
+
+.logo {
+    display: inline-block;
+    width: 30%;
+}
+
+h1 {
+    display: inline-block;
+    width: 70%;
+    font-family: DemonSlayer;
+    font-size: 90px;
+    text-align: center;
+}
+
+.main p {
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Pangolin', cursive;
+}
+
+.imgs {
+    width: 250px;
+    height: 300px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.name1 {
+    text-align: left;
+}
+
+.name2 {
+    text-align: right;
+}
+
+.img1 {
+    display: inline-block;
+    width: 30%;
+}
+
+.p1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    text-align: right;
+}
+
+.p2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+}
+
+.img2 {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+}
+
+.cast {
+    background-color: #ce3030;
+    padding: 10px;
+}
+
+.footer {
+    display: block;
+    width: 100%;
+    font-family: DemonSlayer;
+    font-size: 80px;
+    text-align: center;
+}
